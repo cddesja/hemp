@@ -241,3 +241,12 @@
 #' }
 #' @source Bates, D., Maechler, M., Bolker, B., & Walker, S. (2015). Fitting linear mixed-effects models using lme4. Journal of Statistical Software, 67(1), 1-48. doi:10.18637/jss.v067.i01.
 "VerbAggWide"
+
+#' Hypothetical Executive Functioning Assessment
+#'
+#' The executive function assessement consists of 10 items measured on 30 student participants. The data were randomly generated to demonstrate various psychometric models (e.g., CTT, a one-facet G-study)
+#'
+#' @docType data
+#' @keywords dataset
+#' @format A data frame with 30 participants and 10 items.
+"efData"
