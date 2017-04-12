@@ -250,7 +250,7 @@
 #' @keywords dataset
 #' @format A data frame in long-format with 30 participants' responses to 10 items.
 #'  \describe{
-#' \item{participants}{The participant ID.}
+#' \item{participant}{The participant ID.}
 #' \item{item}{The item ID.}
 #' \item{score}{A participant's score on a particular item.}
 #' }
