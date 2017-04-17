@@ -1,4 +1,4 @@
-#' WISC-R scores on 175 children
+ #' WISC-R scores on 175 children
 #'
 #' The WISC-R subscale data from Tabacknick & Fidell, 3rd ed "Using Multivariate Statistics". The suscale scores come for the second version of the Wechsler Intelligence Test for Children. The students were school-aged children previously diagnosed as learning-disabled. The data were collected between 1972 and 1984.
 #'
@@ -250,8 +250,8 @@
 #' @keywords dataset
 #' @format A data frame in long-format with 30 participants' responses to 10 items.
 #'  \describe{
-#' \item{participant}{The participant ID.}
-#' \item{item}{The item ID.}
-#' \item{score}{A participant's score on a particular item.}
+#' \item{Participants}{The participant ID.}
+#' \item{Items}{The item ID.}
+#' \item{Score}{A participant's score on a particular item.}
 #' }
 "efData"
