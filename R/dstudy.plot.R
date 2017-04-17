@@ -9,17 +9,17 @@
 #' @examples
 #' ## One facet
 #' one.facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
-#' design.plot(one.facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)))
-#' design.plot(one.facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)), g.coef = F)
+#' dstudy.plot(one.facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)))
+#' dstudy.plot(one.facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)), g.coef = F)
 #'
 #' ## Two facet
 #' two.facet <- lmer(score ~ (1 | child) + (1 | raters) + (1 | occasions) + (1 | child:raters) + (1 | child:occasions) + (1 | raters:occasions), data = swtab1.3)
-#' design.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4))
-#' design.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4), g.coef = F)
+#' dstudy.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4))
+#' dstudy.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4), g.coef = F)
 
 #' @seealso \code{\link{dstudy}}
 #' @export
-design.plot <- function(x, unit, facets, g.coef = T){
+dstudy.plot <- function(x, unit, facets, g.coef = T){
   if(length(facets)==1){
     conds <- facets[[1]]
     coefs <- matrix(NA, nrow = length(conds), ncol = 2)

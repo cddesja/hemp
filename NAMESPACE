@@ -2,8 +2,8 @@
 
 S3method(print,dStudy)
 export(bollen_plot)
-export(design.plot)
 export(dstudy)
+export(dstudy.plot)
 export(fa.parallel.repm)
 export(free_params)
 export(gstudy)
