@@ -3,9 +3,20 @@
 #' Plots multiple d studies for one or two-facet design.
 #' @param x object of class \code{mer} returned from the \code{lme4} function
 #' @param unit the name of the unit of measurement
-#' @param facets A list of length 1 (one-facet) or 2 (two-facet)
-#' @param g.coef Plot the generalizability coefficent? If false, plot the dependability coefficientå
+#' @param facets A list of length 1 (one-facet) or 2 (two-facet). If two-facet plot, then the second facet is the grouping variable.
+#' @param g.coef Plot the generalizability coefficent? If false, plot the dependability coefficient.
 #' @import lattice
+#' @examples
+#' ## One facet
+#' one.facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
+#' design.plot(one.facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)))
+#' design.plot(one.facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)), g.coef = F)
+#'
+#' ## Two facet
+#' two.facet <- lmer(score ~ (1 | child) + (1 | raters) + (1 | occasions) + (1 | child:raters) + (1 | child:occasions) + (1 | raters:occasions), data = swtab1.3)
+#' design.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4))
+#' design.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4), g.coef = F)
+
 #' @seealso \code{\link{dstudy}}
 #' @export
 design.plot <- function(x, unit, facets, g.coef = T){

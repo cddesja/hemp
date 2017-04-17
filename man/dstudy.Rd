@@ -17,7 +17,12 @@ dstudy(x, n, unit)
 Generates the variance components and the relative magnitude (percent of total variance) of each variance component.
 }
 \examples{
-mod <- lmer(score ~ (1 | participant) + (1 | item), data = efData)
-dstudy(mod)
+## One facet design
+one.facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
+dstudy(one.facet, n = c("Items" = 4), unit = "Participants")
+
+## Two facet design
+lmer.tab3.2 <- lmer(score ~ (1 | child) + (1 | raters) + (1 | occasions) + (1 | child:raters) + (1 | child:occasions) + (1 | raters:occasions), data = swtab1.3)
+dstudy(lmer.tab3.2, unit = "child", n = c("occasions" = 4, "raters" = 2))
 }
 
