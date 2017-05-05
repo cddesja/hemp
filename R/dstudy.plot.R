@@ -61,7 +61,7 @@ dstudy.plot <- function(x, unit, facets, g.coef = T){
                              space = "right", cex.title = 1, lines = T,
                              points = F,
                              type = "b"),
-             scales = list(x = list(at = unique(data.df[,2]))))
+             scales = list(x = list(at = unique(data.df[,1]))))
 
     } else {
       xyplot(data.df[,4] ~ data.df[,1], group = data.df[,2], type = "b", xlab = paste(names(data.df[1])), ylab = paste(names(data.df[4])), par.settings = par.settings,
@@ -69,7 +69,7 @@ dstudy.plot <- function(x, unit, facets, g.coef = T){
                              space = "right", cex.title = 1, lines = T,
                              points = F,
                              type = "b"),
-             scales = list(x = list(at = unique(data.df[,2]))))
+             scales = list(x = list(at = unique(data.df[,1]))))
     }
   }
 }
