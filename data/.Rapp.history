@@ -1,0 +1,2 @@
+load("/Users/cdesjard/GitHub/hemp/data/writing.RData")
+ls()
