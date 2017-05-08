@@ -4,7 +4,7 @@
 \alias{gstudy}
 \title{Generate the variance components from a G-study}
 \usage{
-gstudy(x)
+gstudy(x, fixed = NULL)
 }
 \arguments{
 \item{x}{An lmer fitted object}
@@ -13,7 +13,11 @@ gstudy(x)
 Generates the variance components and the relative magnitude (percent of total variance) of each variance component.
 }
 \examples{
-mod <- lmer(score ~ (1 | participant) + (1 | item), data = efData)
-gstudy(mod)
+one.facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
+two.facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
+gstudy(one.facet)
+gstudy(two.facet)
+# Two facet with prompts fixed
+gstudy(two.facet, fixed = "prompts")
 }
 

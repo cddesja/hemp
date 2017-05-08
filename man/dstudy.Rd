@@ -7,7 +7,7 @@
 dstudy(x, n, unit)
 }
 \arguments{
-\item{x}{An lmer fitted object}
+\item{x}{A gstudy object}
 
 \item{n}{A vector with facets named}
 
@@ -19,10 +19,16 @@ Generates the variance components and the relative magnitude (percent of total v
 \examples{
 ## One facet design
 one.facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
-dstudy(one.facet, n = c("Items" = 4), unit = "Participants")
+one.facet.gstudy <- gstudy(one.facet)
+dstudy(one.facet.gstudy, n = c("Items" = 4), unit = "Participants")
 
 ## Two facet design
-lmer.tab3.2 <- lmer(score ~ (1 | child) + (1 | raters) + (1 | occasions) + (1 | child:raters) + (1 | child:occasions) + (1 | raters:occasions), data = swtab1.3)
-dstudy(lmer.tab3.2, unit = "child", n = c("occasions" = 4, "raters" = 2))
+two.facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
+two.facet.gstudy <- gstudy(two.facet)
+dstudy(two.facet.gstudy, n = c("raters" = 2, "prompts" = 5), unit = "students")
+
+## Two facet fixed design wtih prompt
+gstudy.fixed.prompt <- gstudy(two.facet, fixed = "prompts")
+dstudy(gstudy.fixed.prompt, n = c("raters" = 2), unit = "students")
 }
 
