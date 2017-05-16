@@ -285,3 +285,16 @@
 #' \describe{The first column is the examinee ID and the remaining columns are the responses to the items. Each item has four response options: 1=A, 2=B; 3=C; and 4=D. The answer key is as follows:
 #' key=c(4,3,2,3,4,3,2,3,1,4,3,2,3,3,4,2,4,3,3,2,2,1,2,1,1,2,1)}
 "multiplechoice"
+
+#' Hypothetical College Readiness Exam
+#'
+#' This datasets contains score distributions for two forms of a hypothetical college readiness exam.
+#'
+#' @docType data
+#' @keywords dataset
+#' @format A 1000 by 2 data.frame containg a student's score and the form of the exam.
+#'  \describe{
+#' \item{score}{The student's score on the college readiness exam}
+#' \item{form}{The form of the exam a student took, either x or y}
+#' }
+"hcre"
