@@ -298,3 +298,52 @@
 #' \item{form}{The form of the exam a student took, either x or y}
 #' }
 "hcre"
+
+
+#' Non-equivalent group design data set
+#'
+#' This dataset contains scores from a non-equivalent group design. 
+#'
+#' @docType data
+#' @keywords dataset
+#' @format 20 test takers response on 35 items (scored correct: 1 and incorrect: 0) and the form of the instrument.
+#'  \describe{
+#' \item{q.1}{Response to question 1}
+#' \item{q.2}{Response to question 2}
+#' \item{q.3}{Response to question 3}
+#' \item{q.4}{Response to question 4}
+#' \item{q.5}{Response to question 5}
+#' \item{q.6}{Response to question 6}
+#' \item{q.7}{Response to question 7}
+#' \item{q.8}{Response to question 8}
+#' \item{q.9}{Response to question 9}
+#' \item{q.10}{Response to question 10}
+#' \item{q.11}{Response to question 11}
+#' \item{q.12}{Response to question 12}
+#' \item{q.13}{Response to question 13}
+#' \item{q.14}{Response to question 14}
+#' \item{q.15}{Response to question 15}
+#' \item{q.16}{Response to question 16}
+#' \item{q.17}{Response to question 17}
+#' \item{q.18}{Response to question 18}
+#' \item{q.19}{Response to question 19}
+#' \item{q.20}{Response to question 20}
+#' \item{q.21}{Response to question 21}
+#' \item{q.22}{Response to question 22}
+#' \item{q.23}{Response to question 23}
+#' \item{q.24}{Response to question 24}
+#' \item{q.25}{Response to question 25}
+#' \item{a.1}{Response to anchor item 1}
+#' \item{a.2}{Response to anchor item 2}
+#' \item{a.3}{Response to anchor item 3}
+#' \item{a.4}{Response to anchor item 4}
+#' \item{a.5}{Response to anchor item 5}
+#' \item{a.6}{Response to anchor item 6}
+#' \item{a.7}{Response to anchor item 7}
+#' \item{a.8}{Response to anchor item 8}
+#' \item{a.9}{Response to anchor item 9}
+#' \item{a.10}{Response to anchor item 10}
+#' \item{form}{The form of the exam a student took, either x or y}
+#' }
+"negd"
+
