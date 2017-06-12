@@ -306,7 +306,7 @@
 #'
 #' @docType data
 #' @keywords dataset
-#' @format 20 test takers response on 35 items (scored correct: 1 and incorrect: 0) and the form of the instrument.
+#' @format 2000 test takers response on 35 items (scored correct: 1 and incorrect: 0) and the form of the instrument.
 #'  \describe{
 #' \item{q.1}{Response to question 1}
 #' \item{q.2}{Response to question 2}
