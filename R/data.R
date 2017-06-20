@@ -347,3 +347,20 @@
 #' }
 "negd"
 
+
+#' Hypothetical Short Quiz
+#'
+#' This dataset contains examinees' responses to a short quiz with 10 items.The data set has been fabricated to
+#' demonstrate Explanatory Item Response Modeling.
+#'
+#' @docType data
+#' @keywords dataset
+#' @format A long format data frame containing 1000 examinees' responses to 10 items and additional variables.
+#' \describe{
+#' \item{person}{Examinee ID}
+#' \item{item}{Item ID}
+#' \item{response}{Dichotomous item responses}
+#' \item{gender}{Examinees' gender where F is female and M is male}
+#' \item{itemtype}{A variable to define whether items on the quiz have a visual component}
+#' }
+"eirm"
