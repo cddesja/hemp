@@ -4,12 +4,14 @@ Title: Handbook of Educational Measurement and Psychometrics Using R (HEMPUR)
     Companion Package
 Version: 0.1.0
 Authors@R: person("Christopher", "Desjardins", email = "cdesjard@umn.edu", role = c("aut", "cre")); person("Okan", "Bulut", email = "bulut@ualberta.ca", role = c("aut", "cre"))
-Description: Wrappers to make output and interaction with functions simpiler and
+Description: Wrappers to make output and interaction with functions simpler and
     data sets include in the HEMPUR textbook.
 Depends:
     psych,
     lattice,
-    lme4
+    lme4,
+    mirt,
+    reshape2
 License: GPL3
 Encoding: UTF-8
 LazyData: true
