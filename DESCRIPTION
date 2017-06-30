@@ -9,10 +9,12 @@ Description: Wrappers to make output and interaction with functions simpler and
 Depends:
     psych,
     lattice,
+    lavaan,
     lme4,
     mirt,
     reshape2,
-    boot
+    boot,
+    equate
 License: GPL3
 Encoding: UTF-8
 LazyData: true
