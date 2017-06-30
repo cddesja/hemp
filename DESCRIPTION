@@ -11,7 +11,8 @@ Depends:
     lattice,
     lme4,
     mirt,
-    reshape2
+    reshape2,
+    boot
 License: GPL3
 Encoding: UTF-8
 LazyData: true
