@@ -1,0 +1,21 @@
+Package: hemp
+Type: Package
+Title: Handbook of Educational Measurement and Psychometrics Using R
+    Companion Package
+Version: 0.1.0
+Authors@R: person("Christopher", "Desjardins", email = "cdesjard@umn.edu", role = c("aut", "cre")); person("Okan", "Bulut", email = "bulut@ualberta.ca", role = c("aut", "cre"))
+Description: Wrappers to make output and interaction with functions simpler and
+    data sets include in the Handbook of Educational Measurement and Psychometrics Using R.
+Depends:
+    psych,
+    lattice,
+    lavaan,
+    lme4,
+    mirt,
+    reshape2,
+    boot,
+    equate
+License: GPL3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
