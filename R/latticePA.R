@@ -9,14 +9,14 @@
 #' @import parallel
 #' @importFrom psych fa
 #' @examples
-#' library(REPM)
+#' library(hemp)
 #' cognition <- subset(interest, select = vocab:analyrea)
 #' latticePA(cognition)
 #' @export
 #'
 #'
 latticePA <- function(data, ...){
-  x <- REPM::fa.parallel.repm(data)
+  x <- hemp::fa.parallel.hemp(data)
   dat.tmp <- data.frame(fa.values = x[[1]],
                             fa.sim = x[[5]],
                             nfactors = seq_along(x[[1]]))

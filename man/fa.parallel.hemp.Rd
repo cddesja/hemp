@@ -12,6 +12,6 @@ fa.parallel.hemp(x, n.obs = NULL, main = "Parallel Analysis Scree Plots",
 \item{x}{An object of class parallel returned from the fa.parallel function}
 }
 \description{
-A paired down version of the FA parallel function for the hemp package based on \code{psych::fa.parallel}
+A paired down version of the FA parallel function for the REPM package based on \code{psych::fa.parallel}
 }
 

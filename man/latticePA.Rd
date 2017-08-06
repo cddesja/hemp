@@ -13,7 +13,7 @@ latticePA(data, ...)
 \code{latticePA} returns a parallel analysis based on a reduced correlation matrix using lattice
 }
 \examples{
-library(REPM)
+library(hemp)
 cognition <- subset(interest, select = vocab:analyrea)
 latticePA(cognition)
 }

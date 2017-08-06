@@ -1,6 +1,6 @@
 #' @title Parallel analysis engine based on psych code
 #'
-#' @description A paired down version of the FA parallel function for the hemp package based on \code{psych::fa.parallel}
+#' @description A paired down version of the FA parallel function for the REPM package based on \code{psych::fa.parallel}
 #'
 #'
 #' @param x An object of class parallel returned from the fa.parallel function
