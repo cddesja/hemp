@@ -6,7 +6,7 @@
 #' @param alpha The alpha level of significance (default=0.05)
 #'
 #' @export
-summary.irtlr <- function(x, alpha=0.05) {
+irtlr_summary <- function(x, alpha=0.05) {
   output <- lapply(x[unlist(lapply(x, function(y) y$p[2] < alpha))], function(z) z[2,c("X2", "df", "p")])
   nitems <- length(output)
   output2 <- data.frame(Item=NA, chi_square=NA, df=NA, p_value=NA)
