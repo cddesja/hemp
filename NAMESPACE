@@ -2,6 +2,7 @@
 
 S3method(print,dStudy)
 S3method(print,gStudy)
+S3method(summary,irtlr)
 export(bollen_plot)
 export(dstudy)
 export(dstudy.plot)
