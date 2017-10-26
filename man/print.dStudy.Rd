@@ -17,4 +17,3 @@ Prints  output from fitting the \code{dstudy} function.
 \seealso{
 \code{\link{dstudy}}
 }
-

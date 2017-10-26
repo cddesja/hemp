@@ -20,4 +20,3 @@ perf =~ pictcomp + parang + block + object + coding
 fit <- cfa(iq.cfa, data = wiscsem)
 free_params(fit)
 }
-

@@ -17,4 +17,3 @@ VerbAggWide
 The Verbal Aggression data set is a wide-format version of the  \link[lme4]{VerbAgg} data set in the \pkg{lme4} package (Bates, Maechler, Bolker, & Walker, 2015) in R.
 }
 \keyword{dataset}
-

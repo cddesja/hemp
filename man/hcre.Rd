@@ -16,4 +16,3 @@ hcre
 This datasets contains score distributions for two forms of a hypothetical college readiness exam.
 }
 \keyword{dataset}
-

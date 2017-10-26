@@ -28,4 +28,3 @@ wiscsem
 The WISC-R subscale data from Tabacknick & Fidell, 3rd ed "Using Multivariate Statistics". The suscale scores come for the second version of the Wechsler Intelligence Test for Children. The students were school-aged children previously diagnosed as learning-disabled. The data were collected between 1972 and 1984.
 }
 \keyword{dataset}
-

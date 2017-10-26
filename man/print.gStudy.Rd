@@ -17,4 +17,3 @@ Prints  output from fitting the \code{gstudy} function.
 \seealso{
 \code{\link{gstudy}}
 }
-

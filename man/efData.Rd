@@ -17,4 +17,3 @@ efData
 The executive function assessement consists of 10 items measured on 30 student participants. The data were randomly generated to demonstrate various psychometric models (e.g., CTT, a one-facet G-study)
 }
 \keyword{dataset}
-

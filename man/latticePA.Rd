@@ -17,4 +17,3 @@ library(hemp)
 cognition <- subset(interest, select = vocab:analyrea)
 latticePA(cognition)
 }
-

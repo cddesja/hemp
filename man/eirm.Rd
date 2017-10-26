@@ -20,4 +20,3 @@ This dataset contains examinees' responses to a short quiz with 10 items.The dat
 demonstrate Explanatory Item Response Modeling.
 }
 \keyword{dataset}
-

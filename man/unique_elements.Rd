@@ -21,4 +21,3 @@ fit <- cfa(iq.cfa, data = wiscsem)
 unique_elements(fit)
 
 }
-

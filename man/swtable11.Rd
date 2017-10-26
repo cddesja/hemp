@@ -20,4 +20,3 @@ swtable11
 This is the data set presented in Table 1.1 in Shavelson & Webb (1991).
 }
 \keyword{dataset}
-

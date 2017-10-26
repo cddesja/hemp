@@ -32,4 +32,3 @@ dstudy.plot(two.facet, unit = "child", facets = list(raters = 1:4, occasions = 1
 \seealso{
 \code{\link{dstudy}}
 }
-

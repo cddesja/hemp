@@ -43,4 +43,3 @@ Revelle, W. (2015) psych: Procedures for Personality and Psychological Research,
 Revelle, William, Wilt, Joshua,  and Rosenthal, Allen (2010)  Personality and Cognition: The Personality-Cognition Link. In Gruszka, Alexandra  and Matthews, Gerald   and Szymura, Blazej (Eds.) Handbook of Individual Differences in Cognition: Attention, Memory and Executive Control, Springer.
 }
 \keyword{datasets}
-

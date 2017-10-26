@@ -31,4 +31,3 @@ dstudy(two.facet.gstudy, n = c("raters" = 2, "prompts" = 5), unit = "students")
 gstudy.fixed.prompt <- gstudy(two.facet, fixed = "prompts")
 dstudy(gstudy.fixed.prompt, n = c("raters" = 2), unit = "students")
 }
-

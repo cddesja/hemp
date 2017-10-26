@@ -29,4 +29,3 @@ ability <- rnorm(500)
 itemperson.map(difficulty,ability,main="Item-Person Map", n=20)
 
 }
-

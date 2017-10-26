@@ -26,4 +26,3 @@ two.facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 |
 gstudy(two.facet)
 }
 \keyword{dataset}
-

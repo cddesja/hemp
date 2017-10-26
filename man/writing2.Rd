@@ -26,4 +26,3 @@ nested.design <- lmer(scores ~ (1 | students/raters) + (1 | prompts) + (1 | stud
 gstudy(nested.design)
 }
 \keyword{dataset}
-

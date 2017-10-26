@@ -15,4 +15,3 @@ latticeScree(data, ...)
 \examples{
 latticeScree(interest)
 }
-

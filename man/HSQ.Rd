@@ -55,4 +55,3 @@ Responses for negatively worded statements (Q1, Q7, Q9, Q15, Q16, Q17, Q22, Q23,
 Martin, R. A., Puhlik-Doris, P., Larsen, G., Gray, J., & Weir, K. (2003). Individual differences in uses of humor and their relation to psychological well-being: Development of the Humor Styles Questionnaire. Journal of Research in Personality, 37, 48-75.
 }
 \keyword{datasets}
-

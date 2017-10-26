@@ -50,4 +50,3 @@ interest
 The data come from a fabricated cognitive, personality, and vocational interested inventory. This data set can be used to demonstrate regression and structural equation modeling.
 }
 \keyword{dataset}
-

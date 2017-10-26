@@ -23,4 +23,3 @@ teacher
 The participants of this study were 50 eighth-grade students and 17 math teachers. The sample of teachers was selected to represent a range of experiences. Years of experience as a teacher ranged from one year to 26 years in the sample. Students, teachers, and performance tasks were fully crossed facets. All students in the sample responded to the same questions in a performance assessment. The responses of all the students were graded by each of the seventeen teachers.
 }
 \keyword{dataset}
-

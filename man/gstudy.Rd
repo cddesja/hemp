@@ -20,4 +20,3 @@ gstudy(two.facet)
 # Two facet with prompts fixed
 gstudy(two.facet, fixed = "prompts")
 }
-

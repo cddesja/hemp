@@ -35,4 +35,3 @@ The RSE data set was obtained via online with an interactive version of the Rose
 Rosenberg, M. (1965). Society and the adolescent self-image. Princeton, NJ: Princeton University Press.
 }
 \keyword{dataset}
-

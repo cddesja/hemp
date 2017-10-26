@@ -14,4 +14,3 @@ fa.parallel.hemp(x, n.obs = NULL, main = "Parallel Analysis Scree Plots",
 \description{
 A paired down version of the FA parallel function for the REPM package based on \code{psych::fa.parallel}
 }
-

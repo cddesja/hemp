@@ -17,4 +17,3 @@ This fabricated data set presents responses to a hypothetical depression scale. 
 The two dimensions are moderately correlated (i.e., around .50).
 }
 \keyword{dataset}
-

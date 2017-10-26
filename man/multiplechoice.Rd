@@ -14,4 +14,3 @@ multiplechoice
 This fabricated multiple-choice test consists of 27 items administered to 496 examinees. The data were randomly generated to demonstrate various psychometric models (e.g., 2PL-NLM and 3PL-NLM).
 }
 \keyword{dataset}
-

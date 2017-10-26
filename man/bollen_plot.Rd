@@ -22,4 +22,3 @@ bollen_plot(interest)
 \references{
 Bollen, K. A. (1989). Structural equations with latent variables. John Wiley & Sons.
 }
-

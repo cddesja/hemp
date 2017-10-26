@@ -50,4 +50,3 @@ negd
 This dataset contains scores from a non-equivalent group design.
 }
 \keyword{dataset}
-
