@@ -2,17 +2,19 @@
 % Please edit documentation in R/split_half.R
 \name{split_half}
 \alias{split_half}
-\title{Split half reliability}
+\title{Split-half reliability}
 \usage{
-split_half(data, type = "alternate")
+split_half(data, type = "alternate", sb = FALSE)
 }
 \arguments{
 \item{data}{A data frame}
 
 \item{type}{Either alternate or random. Default is alternate.}
+
+\item{sb}{Use the Spearman-Brown correction? Default is FALSE.}
 }
 \value{
-The split half reliability is caculated using every other item, if \code{type = "alternate"} is specified, or by splitting the instrument in half at random, if \code{type = "random"} is specifed.
+The split half reliability is calculated using every other item, if \code{type = "alternate"} is specified, or by splitting the instrument in half at random, if \code{type = "random"} is specifed. If \code{sb = TRUE}, then the Spearman-Brown correction is returned.
 }
 \description{
 Calculates split-half reliability either by selecting every other item or by randomly split the items.
