@@ -4,12 +4,12 @@
 \alias{cvr}
 \title{CVR}
 \usage{
-cvr(N, Ne)
+cvr(N, n_e)
 }
 \arguments{
 \item{N}{total number of experts}
 
-\item{Ne}{number of experts that agree that the item is essential.}
+\item{n_e}{number of experts that agree that the item is essential.}
 }
 \value{
 CVR.
