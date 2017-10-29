@@ -7,12 +7,14 @@
 irvi(data, use = "complete.obs", na.rm = T)
 }
 \arguments{
+\item{data}{data frame}
+
 \item{use}{How should missing data be handled? See the \code{cor} function. Default is "complete.obs"}
 
 \item{na.rm}{logical. Should missing values be removed? Defualt is TRUE.}
 }
 \value{
-CVR.
+Item-Reliability and Item-Validity Index
 }
 \description{
 Calculates the item-reliability index or the item-validity index
