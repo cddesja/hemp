@@ -4,12 +4,14 @@
 \alias{idi}
 \title{Item Discrimation Index}
 \usage{
-idi(data, item, use = "complete.obs", na.rm = T)
+idi(data, item, perc_cut, use = "complete.obs", na.rm = T)
 }
 \arguments{
 \item{data}{data frame}
 
 \item{item}{An item (as a vector)}
+
+\item{perc_cut}{A number that defines the upper and lower percentile to use for the high and low achieving groups}
 
 \item{use}{How should missing data be handled? See the \code{cor} function. Default is "complete.obs"}
 
@@ -22,5 +24,5 @@ The item discrimination index
 Calculates the item discrimation index
 }
 \examples{
-idi(SAPA, SAPA$reason.4)
+idi(SAPA, SAPA$reason.4, perc_cut = .27)
 }
