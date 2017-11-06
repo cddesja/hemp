@@ -1,7 +1,7 @@
 #' @title Parallel analysis plot via lattice
 #'
 #' @description
-#' \code{latticePA} returns a parallel analysis based on a reduced correlation matrix using lattice
+#' \code{lattice_pa} returns a parallel analysis based on a reduced correlation matrix using lattice
 #'
 #' @param data A data.frame with no missing data
 #'
@@ -11,18 +11,18 @@
 #' @examples
 #' library(hemp)
 #' cognition <- subset(interest, select = vocab:analyrea)
-#' latticePA(cognition)
+#' lattice_pa(cognition)
 #' @export
 #'
 #'
-latticePA <- function(data, ...){
+lattice_pa <- function(data, ...){
   x <- hemp::fa.parallel.hemp(data)
   dat.tmp <- data.frame(fa.values = x[[1]],
                             fa.sim = x[[5]],
                             nfactors = seq_along(x[[1]]))
   xyplot(fa.values ~ nfactors, data = dat.tmp,
          panel = function(x,y, ...){
-           panel.xyplot(x, y, type = c("p", "l"))
+           panel.xyplot(x, y, type = c("p", "l"), col = "black")
            panel.lines(x, y = dat.tmp$fa.sim, lty = 3, col = "black")
          },
          xlab = "Number of Factors",

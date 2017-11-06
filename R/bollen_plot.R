@@ -29,7 +29,7 @@ bollen_plot <- function(x, crit.value = NULL) {
        ylim = c(0, max(dat$A) + .15*max(dat$A)))
   points(dat$A ~ dat$id, pch = 16)
   abline(h = dim(mean.matrix)[2]/dim(mean.matrix)[1],
-         col = "gray70")
+         col = "black", lty = 1, lwd = 2)
   if(!is.null(crit.value)){
     text(dat$id,dat$A,
          labels = ifelse(dat$A > crit.value, dat$id, ""),
