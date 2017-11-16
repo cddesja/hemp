@@ -10,8 +10,8 @@ Depends:
     psych,
     lattice,
     lavaan,
-    lme4,
     mirt,
+    lme4,
     reshape2,
     boot,
     equate
