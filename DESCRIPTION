@@ -4,8 +4,7 @@ Title: Handbook of Educational Measurement and Psychometrics Using R
     Companion Package
 Version: 0.1.0
 Authors@R: person("Christopher", "Desjardins", email = "cdesjard@umn.edu", role = c("aut", "cre")); person("Okan", "Bulut", email = "bulut@ualberta.ca", role = c("aut", "cre"))
-Description: Wrappers to make output and interaction with functions simpler and
-    data sets include in the Handbook of Educational Measurement and Psychometrics Using R.
+Description: Functions and data sets used in the Handbook of Educational Measurement and Psychometrics Using R text.
 Depends:
     psych,
     lattice,
