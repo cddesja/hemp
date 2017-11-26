@@ -14,9 +14,10 @@
 #' dstudy_plot(one_facet, unit = "Participants", facets = list(Items = c(8, 20, 30, 40)), g_coef = F)
 #'
 #' ## Two facet
-#' two_facet <- lmer(score ~ (1 | child) + (1 | raters) + (1 | occasions) + (1 | child:raters) + (1 | child:occasions) + (1 | raters:occasions), data = swtab1.3)
-#' dstudy_plot(two_facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4))
-#' dstudy_plot(two_facet, unit = "child", facets = list(raters = 1:4, occasions = 1:4), g_coef = F)
+#' two_facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
+#' twofacet_gstudy <- gstudy(two_facet)
+#' dstudy_plot(twofacet_gstudy, unit = "students", facets = list(raters = 1:4, prompts = 1:4))
+#' dstudy_plot(twofacet_gstudy, unit = "students", facets = list(raters = 1:4, prompts = 1:4), g_coef = F)
 
 #' @seealso \code{\link{dstudy}}
 #' @export

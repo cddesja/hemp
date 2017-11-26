@@ -14,13 +14,13 @@
 #' dstudy(one.facet.gstudy, n = c("Items" = 4), unit = "Participants")
 #'
 #' ## Two facet design
-#' two.facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
-#' two.facet.gstudy <- gstudy(two.facet)
-#' dstudy(two.facet.gstudy, n = c("raters" = 2, "prompts" = 5), unit = "students")
+#' two_facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
+#' two_facet_gstudy <- gstudy(two_facet)
+#' dstudy(two_facet_gstudy, n = c("raters" = 2, "prompts" = 5), unit = "students")
 #'
 #' ## Two facet fixed design wtih prompt
-#' gstudy.fixed.prompt <- gstudy(two.facet, fixed = "prompts")
-#' dstudy(gstudy.fixed.prompt, n = c("raters" = 2), unit = "students")
+#' gstudy_fixed_prompt <- gstudy(two.facet, fixed = "prompts")
+#' dstudy(gstudy_fixed_prompt, n = c("raters" = 2), unit = "students")
 #' @export
 dstudy <- function(x, n, unit) {
   tmp <- x$gstudy.out

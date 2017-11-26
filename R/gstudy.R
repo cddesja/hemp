@@ -6,12 +6,12 @@
 #' @param x An lmer fitted object
 #'
 #' @examples
-#' one.facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
-#' two.facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
-#' gstudy(one.facet)
-#' gstudy(two.facet)
+#' one_facet <- lmer(Score ~ (1 | Participants) + (1 | Items), data = efData)
+#' two_facet <- lmer(scores ~ (1 | students) + (1  | prompts) + (1 | raters) + (1 | students:prompts) +  (1 | students:raters) + (1 | prompts:raters), data = writing)
+#' gstudy(one_facet)
+#' gstudy(two_facet)
 #' # Two facet with prompts fixed
-#' gstudy(two.facet, fixed = "prompts")
+#' gstudy(two_facet, fixed = "prompts")
 #' @export
 gstudy <- function(x, fixed = NULL) {
   tmp <- as.data.frame(VarCorr(x))
