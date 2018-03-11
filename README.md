@@ -2,7 +2,7 @@
 
 ## To download all the `R` code used in the Handbook of Educational Measurement and Psychometrics Using R, [please click here]( https://github.com/cddesja/hemp_code/archive/master.zip)
 
-To visit the GitHub repository containing the `R` code visit, [please click here](https://github.com/cddesja/hemp_code).
+To visit the GitHub repository containing all the `R` code, [please click here](https://github.com/cddesja/hemp_code).
 
 ## To install the `hemp` package:
 
