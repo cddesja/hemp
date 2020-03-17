@@ -23,7 +23,7 @@ If you're not using the most recent version of R, then the installation may not 
 Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS=TRUE) # in case your R version is older
 devtools::install_github("cddesja/hemp")
 ```
-If you get message similar to the one below, please choose `3: None` by typing 3 in the R console and hitting enter.
+If you get a message similar to the one below, please choose `3: None` by typing 3 in the R console and hitting enter.
 
 ```{r}
 Downloading GitHub repo cddesja/hemp@master
