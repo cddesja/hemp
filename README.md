@@ -6,7 +6,7 @@ To visit the GitHub repository containing all the `R` code, [please click here](
 
 ## The `hemp` package
 
-The `hemp` package contains data sets and the functions used in Desjardins & Bulut (2018)'s book "Handbook of Educational Measurement and Psychometrics Using R" published by CRC Press.
+The `hemp` package contains data sets and the functions used in Desjardins and Bulut (2018)'s book [Handbook of Educational Measurement and Psychometrics Using R](https://www.taylorfrancis.com/books/mono/10.1201/b20498/handbook-educational-measurement-psychometrics-using-christopher-desjardins-okan-bulut) published by CRC Press.
 
 Additionally, the functions in `hemp` can be used to conduct data analysis with classical test theory and generalizability theory.
 
